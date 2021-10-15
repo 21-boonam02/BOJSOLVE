@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="ave_again.c" />
     <ClCompile Include="mkstar_1.c" />
+    <ClCompile Include="efficient_exponential_cal.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
