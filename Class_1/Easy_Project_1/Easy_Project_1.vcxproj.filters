@@ -24,5 +24,11 @@
     <ClCompile Include="efficient_exponential_cal.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="mkstar_2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="verifi_num.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

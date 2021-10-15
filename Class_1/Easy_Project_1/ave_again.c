@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main2(void)
+int main(void)
 {
 	int sub_count;
 
