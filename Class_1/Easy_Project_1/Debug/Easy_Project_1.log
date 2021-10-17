@@ -1,5 +1,4 @@
-﻿  verifi_num.c
-C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_1\Easy_Project_1\verifi_num.c(2,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': 매크로 재정의
-C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_1\Easy_Project_1\verifi_num.c : message : '_CRT_SECURE_NO_WARNINGS'의 이전 정의를 참조하십시오.
-C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_1\Easy_Project_1\verifi_num.c(7,6): warning C4013: 'gets'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+﻿  countnum.c
+C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_1\Easy_Project_1\countnum.c(3,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': 매크로 재정의
+C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_1\Easy_Project_1\countnum.c : message : '_CRT_SECURE_NO_WARNINGS'의 이전 정의를 참조하십시오.
   Easy_Project_1.vcxproj -> C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_1\Easy_Project_1\Debug\Easy_Project_1.exe

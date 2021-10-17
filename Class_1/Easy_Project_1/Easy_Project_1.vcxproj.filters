@@ -30,5 +30,11 @@
     <ClCompile Include="verifi_num.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="maxinum.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="countnum.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
