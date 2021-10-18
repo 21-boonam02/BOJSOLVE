@@ -1,4 +1,4 @@
-﻿  countnum.c
-C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_1\Easy_Project_1\countnum.c(3,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': 매크로 재정의
-C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_1\Easy_Project_1\countnum.c : message : '_CRT_SECURE_NO_WARNINGS'의 이전 정의를 참조하십시오.
+﻿  Yunyear.c
+C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_1\Easy_Project_1\Yunyear.c(2,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': 매크로 재정의
+C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_1\Easy_Project_1\Yunyear.c : message : '_CRT_SECURE_NO_WARNINGS'의 이전 정의를 참조하십시오.
   Easy_Project_1.vcxproj -> C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_1\Easy_Project_1\Debug\Easy_Project_1.exe

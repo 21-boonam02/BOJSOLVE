@@ -36,5 +36,20 @@
     <ClCompile Include="countnum.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="strrepeat%28불편%29.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gugudan.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Nchicken.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Yunyear.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="AlarmClock.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
