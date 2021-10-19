@@ -1,0 +1,4 @@
+﻿  test_score.c
+C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_1\Easy_Project_2\test_score.c(2,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': 매크로 재정의
+C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_1\Easy_Project_2\test_score.c : message : '_CRT_SECURE_NO_WARNINGS'의 이전 정의를 참조하십시오.
+  Easy_Project_2.vcxproj -> C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_1\Easy_Project_2\Debug\Easy_Project_2.exe

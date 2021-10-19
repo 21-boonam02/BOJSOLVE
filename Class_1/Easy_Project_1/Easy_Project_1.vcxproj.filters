@@ -51,5 +51,8 @@
     <ClCompile Include="AlarmClock.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="constant.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

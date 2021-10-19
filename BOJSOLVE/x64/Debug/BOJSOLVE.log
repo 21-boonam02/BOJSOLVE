@@ -1,0 +1,4 @@
+﻿  friend_hw(using effexpcal).c
+C:\Users\HP\Documents\GitHub\BOJSOLVE\BOJSOLVE\friend_hw(using effexpcal).c(2,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': 매크로 재정의
+C:\Users\HP\Documents\GitHub\BOJSOLVE\BOJSOLVE\friend_hw(using effexpcal).c : message : '_CRT_SECURE_NO_WARNINGS'의 이전 정의를 참조하십시오.
+  BOJSOLVE.vcxproj -> C:\Users\HP\Documents\GitHub\BOJSOLVE\BOJSOLVE\x64\Debug\BOJSOLVE.exe

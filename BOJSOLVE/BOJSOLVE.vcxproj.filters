@@ -21,5 +21,8 @@
     <ClCompile Include="again.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="friend_hw(using effexpcal).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
