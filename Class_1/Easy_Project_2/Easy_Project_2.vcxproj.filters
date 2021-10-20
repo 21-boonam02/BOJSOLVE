@@ -27,5 +27,14 @@
     <ClCompile Include="test_score.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="find_alpha.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="number_sum.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="minmax.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
