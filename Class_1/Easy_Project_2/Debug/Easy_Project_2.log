@@ -1,4 +1,4 @@
-﻿  minmax.c
-C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_1\Easy_Project_2\minmax.c(2,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': 매크로 재정의
-C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_1\Easy_Project_2\minmax.c : message : '_CRT_SECURE_NO_WARNINGS'의 이전 정의를 참조하십시오.
+﻿  A+B.c
+C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_1\Easy_Project_2\A+B.c(2,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': 매크로 재정의
+C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_1\Easy_Project_2\A+B.c : message : '_CRT_SECURE_NO_WARNINGS'의 이전 정의를 참조하십시오.
   Easy_Project_2.vcxproj -> C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_1\Easy_Project_2\Debug\Easy_Project_2.exe
