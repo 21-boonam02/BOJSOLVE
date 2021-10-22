@@ -24,5 +24,26 @@
     <ClCompile Include="friend_hw(using effexpcal).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="remnant.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="mult.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="fourplate.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="sum.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="fastAB.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="addcycle.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="overavg.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
