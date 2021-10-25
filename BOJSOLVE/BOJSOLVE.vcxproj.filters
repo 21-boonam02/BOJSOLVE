@@ -42,7 +42,13 @@
     <ClCompile Include="addcycle.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="overavg.c">
+    <ClCompile Include="dial%28easy%29.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="factorial.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="fibonacci.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
