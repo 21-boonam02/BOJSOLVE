@@ -1,23 +1,23 @@
 #include <stdio.h>
 #define _CRT_SECURE_NO_WARNINGS
 
-int factorial(int x);
+int fibonacci(int x);
 
 int main(void)
 {
 	int N;
 	scanf("%d", &N);
-	printf("%d", factorial(N));
+	printf("%d", fibonacci(N));
 
 	return 0;
 }
 
-int factorial(int x)
+int fibonacci(int x)
 {
-	if (0 == x || 1 == x) return 1;
+	if (0 == x || 1 == x) return x;
 	else
 	{
-		return x * factorial(x - 1);
+		return fibonacci(x-1) + fibonacci(x-2) ;
 	}
 
 }
