@@ -21,5 +21,14 @@
     <ClCompile Include="rightrectangle.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="delivery.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="hurry.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="findprimenum.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
