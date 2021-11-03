@@ -28,3 +28,4 @@ int main(void)
 	printf("%d\n%d", M, lcm);
 	return 0;
 }
+//

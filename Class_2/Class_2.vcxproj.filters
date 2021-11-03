@@ -30,10 +30,16 @@
     <ClCompile Include="findprimenum.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="chessboardpaint.c">
+    <ClCompile Include="chessboardpaint%281%29.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="cordassign.c">
+    <ClCompile Include="uclidalgorithm.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="wordassign.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="easyassign.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
