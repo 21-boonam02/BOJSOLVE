@@ -45,5 +45,14 @@
     <ClCompile Include="honeyhouse.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="numassign2%28나중에%29c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="numfind%28시간초과%29.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="croatiaalpha.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

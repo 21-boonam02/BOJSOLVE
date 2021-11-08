@@ -27,5 +27,5 @@ int main(void)
 	lcm = mum / M;
 	printf("%d\n%d", M, lcm);
 	return 0;
-}
+//}
 //

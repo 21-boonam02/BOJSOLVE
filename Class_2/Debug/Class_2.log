@@ -1,5 +1,4 @@
-﻿  honeyhouse.c
-C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2\honeyhouse.c(3,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': 매크로 재정의
-C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2\honeyhouse.c : message : '_CRT_SECURE_NO_WARNINGS'의 이전 정의를 참조하십시오.
-C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2\honeyhouse.c(7,25): warning C4101: 'cnt' :참조되지 않은 지역 변수입니다.
+﻿  croatiaalpha.c
+C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2\croatiaalpha.c(2,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': 매크로 재정의
+C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2\croatiaalpha.c : message : '_CRT_SECURE_NO_WARNINGS'의 이전 정의를 참조하십시오.
   Class_2.vcxproj -> C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2\Debug\Class_2.exe
