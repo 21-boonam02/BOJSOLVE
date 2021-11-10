@@ -33,7 +33,7 @@
     <ClCompile Include="chessboardpaint%281%29.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="uclidalgorithm.c">
+    <ClCompile Include="uclidalgorithm%28for statement%29.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="wordassign.c">
@@ -52,6 +52,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="croatiaalpha.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="uclidalgorithm%28recursion%29.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
