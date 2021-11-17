@@ -24,7 +24,10 @@
     <ClCompile Include="snailclimbing.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="assign.c">
+    <ClCompile Include="girlpresident.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="distrisum.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
