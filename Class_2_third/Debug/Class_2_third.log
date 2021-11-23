@@ -1,0 +1,4 @@
+﻿  ex.c
+C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2_third\ex.c(2,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': 매크로 재정의
+C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2_third\ex.c : message : '_CRT_SECURE_NO_WARNINGS'의 이전 정의를 참조하십시오.
+  Class_2_third.vcxproj -> C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2_third\Debug\Class_2_third.exe

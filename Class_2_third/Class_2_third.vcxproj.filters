@@ -15,25 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Stack.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11_16_comp.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="snailclimbing.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="girlpresident.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="distrisum.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="pointer.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="blackjack.c">
+    <ClCompile Include="ex.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
