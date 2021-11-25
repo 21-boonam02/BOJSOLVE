@@ -30,10 +30,13 @@
     <ClCompile Include="distrisum.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="pointer.c">
+    <ClCompile Include="assign_2%28with merge%29.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="blackjack.c">
+    <ClCompile Include="blackjack%28pointer%29.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="%28func%29simplefunc.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
