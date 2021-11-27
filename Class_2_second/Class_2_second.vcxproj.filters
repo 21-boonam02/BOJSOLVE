@@ -39,5 +39,8 @@
     <ClCompile Include="%28func%29simplefunc.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Assign_COR1%28MERGE%29.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

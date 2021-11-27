@@ -1,4 +1,4 @@
-﻿  pointer.c
-C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2_second\pointer.c(2,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': 매크로 재정의
-C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2_second\pointer.c : message : '_CRT_SECURE_NO_WARNINGS'의 이전 정의를 참조하십시오.
+﻿  assign_coordinate.c
+C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2_second\assign_coordinate.c(2,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': 매크로 재정의
+C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2_second\assign_coordinate.c : message : '_CRT_SECURE_NO_WARNINGS'의 이전 정의를 참조하십시오.
   Class_2_second.vcxproj -> C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2_second\Debug\Class_2_second.exe
