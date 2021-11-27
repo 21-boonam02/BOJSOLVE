@@ -1,4 +1,4 @@
-﻿  uclidalgorithm(2).c
-C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2\uclidalgorithm(2).c(2,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': 매크로 재정의
-C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2\uclidalgorithm(2).c : message : '_CRT_SECURE_NO_WARNINGS'의 이전 정의를 참조하십시오.
+﻿  delivery(fail 나중에).c
+C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2\delivery(fail 나중에).c(2,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': 매크로 재정의
+C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2\delivery(fail 나중에).c : message : '_CRT_SECURE_NO_WARNINGS'의 이전 정의를 참조하십시오.
   Class_2.vcxproj -> C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2\Debug\Class_2.exe

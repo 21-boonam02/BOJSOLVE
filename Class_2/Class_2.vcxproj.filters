@@ -21,7 +21,7 @@
     <ClCompile Include="rightrectangle.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="delivery%28fail 나중에%29.c">
+    <ClCompile Include="sugardelivery%28다시 성공!%29.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="hurry.c">
@@ -43,12 +43,6 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="honeyhouse.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="numassign2%28나중에%29c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="numfind%28시간초과%29.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="croatiaalpha.c">
