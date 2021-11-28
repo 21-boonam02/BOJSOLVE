@@ -42,5 +42,8 @@
     <ClCompile Include="Assign_COR1%28MERGE%29.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="MovieDirector.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
