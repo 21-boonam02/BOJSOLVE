@@ -82,9 +82,10 @@ int main(void)
 	{
 		scanf("%d%d", &x[i],&y[i]);
 	}
-	merge_sort(x,y, 0, N - 1);
+	merge_sort(y,x, 0, N - 1);
 	for (int j = 0; j < N; j++)
 	{
 		printf("%d %d\n", x[j],y[j]);
 	}
 }
+

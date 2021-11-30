@@ -1,6 +1,6 @@
 #include <stdio.h>
 #define _CRT_SECURE_NO_WARNINGS
-#define MAX_SIZE 10000
+#define MAX_SIZE 1000
 
 int sorted[MAX_SIZE];
 void merge(int list[], int left, int mid, int right)

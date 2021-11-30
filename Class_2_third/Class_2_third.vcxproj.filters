@@ -18,5 +18,14 @@
     <ClCompile Include="ex.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="angry.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="WordAssign.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2darrayex.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
