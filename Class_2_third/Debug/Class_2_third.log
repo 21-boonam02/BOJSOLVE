@@ -1,1 +1,4 @@
-﻿  Class_2_third.vcxproj -> C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2_third\Debug\Class_2_third.exe
+﻿  WordAssign.c
+C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2_third\WordAssign.c(4,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': 매크로 재정의
+C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2_third\WordAssign.c : message : '_CRT_SECURE_NO_WARNINGS'의 이전 정의를 참조하십시오.
+  Class_2_third.vcxproj -> C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2_third\Debug\Class_2_third.exe
