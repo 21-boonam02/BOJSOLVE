@@ -13,13 +13,14 @@ int compare(const void* first, const void* second) {
     str* b = (str*)second;
 
     return (a->age > b->age ? 1 : (a->age < b->age ? -1 : 0));
-}
+}// 3항 연산자를 중첩해서 사용하는 방법이구만..
 
 int main(void)
 {
     int N, i;
     scanf("%d", &N);
     str* arr = (str*)malloc(N * sizeof(str));
+    //
     for (i = 0; i < N; i++) {
         scanf("%d %s", &arr[i].age, arr[i].name);
     }
@@ -27,5 +28,6 @@ int main(void)
     for (i = 0; i < N; i++) {
         printf("%d %s\n", arr[i].age, arr[i].name);
     }
+    free(arr);
     return 0;
 }
