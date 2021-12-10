@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ex.c">
+    <ClCompile Include="What%27sTheProblemName.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="angry.c">
+    <ClCompile Include="QuickSort.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="WordAssign.c">
@@ -43,6 +43,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Hashing.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="numcard.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
