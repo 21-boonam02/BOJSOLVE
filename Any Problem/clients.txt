@@ -1,0 +1,5 @@
+1 suman 23.30
+2 boonam 2.3
+5 mihoon -2.3
+3 zihon 2.3
+4 ssuumman 0.00
