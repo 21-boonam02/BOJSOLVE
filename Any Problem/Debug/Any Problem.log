@@ -1,5 +1,1 @@
-﻿  final2.c
-C:\Users\HP\Documents\GitHub\Any Problem\final2.c(1,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': 매크로 재정의
-C:\Users\HP\Documents\GitHub\Any Problem\final2.c : message : '_CRT_SECURE_NO_WARNINGS'의 이전 정의를 참조하십시오.
-C:\Users\HP\Documents\GitHub\Any Problem\final2.c(10,11): warning C4133: '=': 'char *'과(와) 'int *' 사이의 형식이 호환되지 않습니다.
-  Any Problem.vcxproj -> C:\Users\HP\Documents\GitHub\Any Problem\Debug\Any Problem.exe
+﻿  Any Problem.vcxproj -> C:\Users\HP\Documents\GitHub\BOJSOLVE\Any Problem\Debug\Any Problem.exe

@@ -5,9 +5,12 @@
 
 int main()
 {
-	char arr[15] = "pointer array";
-	int* ptr;
-	ptr = arr;
-	printf("%c", ptr[1]);
-	return 0;
+	int grade,total =0;
+	for (int i = 0; i < 5; i++)
+	{
+		scanf("%d", &grade);
+		if (grade > 40) total += grade;
+		else total += 40;
+	}
+	printf("%d\n", total / 5);
 }
