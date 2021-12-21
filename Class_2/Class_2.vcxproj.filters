@@ -51,5 +51,8 @@
     <ClCompile Include="ex2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="ex3.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
