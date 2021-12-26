@@ -1,13 +1,19 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-
-
+#include <string.h>
 
 int main()
 {
-	int A, B, C,D;
-	scanf("%d%d%d", &A, &B, &C);
-	scanf("%d", &D);
+	char sixteen[10],ch;
+	int x =1;
 
-	if((D-C)/60 != 0 )
+	
+	scanf("%s", sixteen);
+
+	for (int i = strlen(sixteen); i > 0; i--)
+	{
+		ch = sixteen[i];
+		if(ch>= 48 && ch<= )
+	}
+
 }
