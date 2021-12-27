@@ -145,7 +145,7 @@
     <ClCompile Include="final1.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="final2.c" />
+    <ClCompile Include="HexaDeciToDeci.c" />
     <ClCompile Include="random_handilng.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
