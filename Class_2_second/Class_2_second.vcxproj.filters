@@ -18,25 +18,25 @@
     <ClCompile Include="Stack.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="11_16_comp.c">
+    <ClCompile Include="2D-MallocFunc.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="snailclimbing.c">
+    <ClCompile Include="SnailClimbing.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="girlpresident.c">
+    <ClCompile Include="GirlPresident.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="distrisum.c">
+    <ClCompile Include="DistributeSum.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="assign_2%28with merge%29.c">
+    <ClCompile Include="Assign_2%28MergeAssign%29.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="blackjack%28pointer%29.c">
+    <ClCompile Include="BlackJack%28Pointer%29.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="%28func%29simplefunc.c">
+    <ClCompile Include="%28Func%29SimpleFunc.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Assign_COR1%28MERGE%29.c">

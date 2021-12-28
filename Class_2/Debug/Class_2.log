@@ -1,4 +1,4 @@
-﻿  practice1.c
-C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2\practice1.c(4,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': 매크로 재정의
-C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2\practice1.c : message : '_CRT_SECURE_NO_WARNINGS'의 이전 정의를 참조하십시오.
+﻿  ex2.c
+C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2\ex2.c(4,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': 매크로 재정의
+C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2\ex2.c : message : '_CRT_SECURE_NO_WARNINGS'의 이전 정의를 참조하십시오.
   Class_2.vcxproj -> C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2\Debug\Class_2.exe

@@ -17,24 +17,25 @@ int main(void)
 {
 	int n;
 
-	scanf("%d",&n);
+	scanf("%d", &n);
 	for (int i = 0; i < n; i++)
 	{
 		char word[6];
 		int num;
 		scanf("%s", &word);
-		if (strcmp(word,"push") == 0)
+		if (strcmp(word, "push") == 0)
 		{
 			scanf("%d", &num);
 			push(num);
 		}
-		else if(!strcmp(word, "empty")) empty();
-		else if(strcmp(word, "pop") == 0) pop();
-		else if(strcmp(word, "size") == 0) size();
-		else if(strcmp(word, "top") == 0) top();
+		else if (!strcmp(word, "empty")) empty();
+		else if (strcmp(word, "pop") == 0) pop();
+		else if (strcmp(word, "size") == 0) size();
+		else if (strcmp(word, "top") == 0) top();
 	}
 
 }
+//꽉 찼는지 확인하는 함수
 int full()
 {
 	if (TOP >= SIZE - 1)
@@ -44,6 +45,7 @@ int full()
 	}
 	return 0;
 }
+// 비어있는지 확인
 void empty()
 {
 	if (TOP == -1)
@@ -59,6 +61,7 @@ void push(int x)
 		stack[++TOP] = x;
 	}
 }
+//스택의 top에 있는 원소를 뺀다.
 void pop()
 {
 	if (TOP != -1)
@@ -70,6 +73,7 @@ void pop()
 	}
 	else printf("%d\n", -1);
 }
+// 지금 들어 있는 스택의 원소 개수를 확인
 void size()
 {
 	if (TOP != -1)
@@ -83,6 +87,7 @@ void size()
 	}
 	else printf("%d\n", 0);
 }
+//스택의 맨 꼭대기에 무엇이 있는지 확인
 void top()
 {
 	if (TOP != -1)
