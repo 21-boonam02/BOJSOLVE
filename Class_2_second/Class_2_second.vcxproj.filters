@@ -48,7 +48,10 @@
     <ClCompile Include="Q.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="StackSeries.c">
+    <ClCompile Include="%28LATER%29StackSeries.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FindNum.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
