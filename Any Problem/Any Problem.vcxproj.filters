@@ -15,25 +15,28 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="sequential_file_handling.c">
+    <ClCompile Include="Sequential_File_Handling.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="rewind.c">
+    <ClCompile Include="Rewind.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="random_handilng.c">
+    <ClCompile Include="Random_Handilng.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="file_read.c">
+    <ClCompile Include="File_Read.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="final1.c">
+    <ClCompile Include="Final1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="HexaDeciToDeci.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="CardGame.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LongCalculation.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
