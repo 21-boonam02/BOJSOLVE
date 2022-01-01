@@ -12,7 +12,7 @@ int main(void)
 	for (int i = 0; i < N;i++)
 	{
 		scanf("%d", &num1);
-	}
+	}  
 	scanf("%d%d", &M);
 	for (int i = 0; i < M; i++)
 	{

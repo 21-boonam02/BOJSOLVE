@@ -36,7 +36,7 @@
     <ClCompile Include="CardGame.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="LongCalculation.c">
+    <ClCompile Include="ThreeDice.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

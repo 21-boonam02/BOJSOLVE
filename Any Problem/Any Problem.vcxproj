@@ -151,7 +151,7 @@
     <ClCompile Include="HexaDeciToDeci.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LongCalculation.c" />
+    <ClCompile Include="ThreeDice.c" />
     <ClCompile Include="Random_Handilng.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
