@@ -39,7 +39,7 @@
     <ClCompile Include="ThreeDice.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Any.c">
+    <ClCompile Include="VeryCheapestFind.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
