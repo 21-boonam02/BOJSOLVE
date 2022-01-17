@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 #define _CRT_SECURE_NO_WARNINGS
-
+#define SIZE 100000
 
 int main(void)
 {
