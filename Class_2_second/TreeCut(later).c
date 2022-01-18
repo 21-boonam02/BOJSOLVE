@@ -7,31 +7,33 @@
 
 int main(void)
 {
-	int N, M,total,max = 0,min = 1000000000;
-	scanf("%d%d", &N, &M);
+	long long int N, M,total,max = 0,min = 1000000000;
+	scanf("%lld%lld", &N, &M);
 	total = M;
-	int* A = (int*)calloc(sizeof(int), N);
+	long long int* A = (long long int*)calloc(sizeof(long long int), N);
 	
-	for (int i = 0; i < N; i++)
+	for (long long int i = 0; i < N; i++)
 	{
-		scanf("%d", &A[i]);
+		scanf("%lld", &A[i]);
 		if (A[i] >= max) max = A[i];
 		if (A[i] <= min) min = A[i];
 		
 	}
+	
 	printf("%d\n", binsearch(A,max,min,total,N));
 }
-int binsearch(int data[], int max,int min, int total, int cnt)
+int binsearch(long long int data[], long long int max,long long int min, long long int total, long long int cnt)
 {
-	int low, high;
-	int mid;
-	low = min;
+	long long int low, high;
+	long long int mid;
+	low = 0;
 	high = max;
 	while (low <= high)
 	{
-		int sum = 0;
+		 
+		long long int sum = 0;
 		mid = (low + high) / 2;
-		for (int i = 0; i < cnt; i++)
+		for (long long int i = 0; i < cnt; i++)
 		{
 			if (data[i] >= mid)
 			{
@@ -40,10 +42,12 @@ int binsearch(int data[], int max,int min, int total, int cnt)
 		}
 		// 내가 초반에 틀렸던 거대로 다시 한 번 해보기.. 틀렸던 것 코드 참고 하면서
 		//왜 틀린지 분석해야지
+
 		if (sum < total) high = mid - 1;
-		else low = mid + 1;
+		else
+		{
+			low = mid + 1;
+		}
 	}
 	return high;
 }
-
-

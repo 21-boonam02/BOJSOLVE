@@ -1,6 +1,8 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 중간 디렉터리(Debug\)에 다른 프로젝트(Class_2_second2.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
-  TreeCut.c
-C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2_second\TreeCut.c(4,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': 매크로 재정의
-C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2_second\TreeCut.c : message : '_CRT_SECURE_NO_WARNINGS'의 이전 정의를 참조하십시오.
-C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2_second\TreeCut.c(22,26): warning C4013: 'binsearch'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  TreeCut(later).c
+C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2_second\TreeCut(later).c(4,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': 매크로 재정의
+C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2_second\TreeCut(later).c : message : '_CRT_SECURE_NO_WARNINGS'의 이전 정의를 참조하십시오.
+C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2_second\TreeCut(later).c(13,68): warning C4244: '함수': '__int64'에서 'size_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2_second\TreeCut(later).c(23,26): warning C4013: 'binsearch'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2_second\TreeCut(later).c(52,13): warning C4244: 'return': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   Class_2_second.vcxproj -> C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2_second\Debug\Class_2_Second.exe
