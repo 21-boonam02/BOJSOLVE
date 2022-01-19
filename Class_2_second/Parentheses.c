@@ -102,4 +102,3 @@ void top()
 		printf("%d\n", stack[TOP]);
 	}
 	else printf("%d\n", -1);
-}
