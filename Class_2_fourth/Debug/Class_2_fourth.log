@@ -1,7 +1,6 @@
-﻿  parentheses.c
-C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2_fourth\parentheses.c(4,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': 매크로 재정의
-C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2_fourth\parentheses.c : message : '_CRT_SECURE_NO_WARNINGS'의 이전 정의를 참조하십시오.
-C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2_fourth\parentheses.c(28,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2_fourth\parentheses.c(26,7): warning C4101: 'num' :참조되지 않은 지역 변수입니다.
-C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2_fourth\parentheses.c(99,10): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
+﻿  Parentheses.c
+C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2_fourth\Parentheses.c(4,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': 매크로 재정의
+C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2_fourth\Parentheses.c : message : '_CRT_SECURE_NO_WARNINGS'의 이전 정의를 참조하십시오.
+C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2_fourth\Parentheses.c(31,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2_fourth\Parentheses.c(50,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   Class_2_fourth.vcxproj -> C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_2_fourth\Debug\Class_2_fourth.exe

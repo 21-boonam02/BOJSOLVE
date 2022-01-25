@@ -1,4 +1,4 @@
-﻿  constant.c
-C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_1\Easy_Project_1\constant.c(3,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': 매크로 재정의
-C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_1\Easy_Project_1\constant.c : message : '_CRT_SECURE_NO_WARNINGS'의 이전 정의를 참조하십시오.
+﻿  efficient_exponential_cal.c
+C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_1\Easy_Project_1\efficient_exponential_cal.c(2,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': 매크로 재정의
+C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_1\Easy_Project_1\efficient_exponential_cal.c : message : '_CRT_SECURE_NO_WARNINGS'의 이전 정의를 참조하십시오.
   Easy_Project_1.vcxproj -> C:\Users\HP\Documents\GitHub\BOJSOLVE\Class_1\Easy_Project_1\Debug\Easy_Project_1.exe
