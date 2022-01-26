@@ -8,9 +8,13 @@ int main(void)
 {
 	int TOP = -1, N;
 	scanf("%d", N);
+	int a = 0, cnt = 2 * N;
 	int* stack = (int*)malloc(sizeof(int) * N);
+	//진짜 스택을 활용해서 빼고 넣고 할 것.
 	int* numlist = (int*)malloc(sizeof(int) * N);
+	//처음 우리가 원하는 형태의 값을 입력할 때, 값을 저장할 곳
 	int* numlist_again = (int*)malloc(sizeof(int) * N);
+	//여기에서 우리가 원하는 값을 넣고, 이제 출력할 것!!
 	for (int i = 0; i < N; i++)
 	{
 		scanf("%d", *(numlist + i));
@@ -18,16 +22,17 @@ int main(void)
 	for (int i = 1; i <= N; i++)
 	{
 
-		if (numlist[i] == i)
+		if (numlist[a] == i)
 		{
+			printf("-\n");
+			numlist_again[a++] = i;
+			if()
+		}
+		else
+		{ 
 			printf("+\n");
 			stack[TOP++] = i;
 
-		}
-		else
-		{
-			printf("-\n");
-			stack[TOP++] = i;
 
 		}
 	}
