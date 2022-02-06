@@ -4,131 +4,92 @@
 #define _CRT_SECURE_NO_WARNINGS
 #define SIZE 100000
 
+int stack[SIZE] = { 0, };
+int TOP = -1;
+
 int main(void)
 {
-	int TOP = -1, N;
-	scanf("%d", N);
-	int a = 0, cnt = 2 * N;
-	int* stack = (int*)malloc(sizeof(int) * N);
+	int N;
+	scanf("%d", &N);
+	int a = 0,b =0 ,cnt = 2 * N + 1;
 	//진짜 스택을 활용해서 빼고 넣고 할 것.
-	int* numlist = (int*)malloc(sizeof(int) * N);
+	int* numlist = (int*)calloc(sizeof(int) , N);
 	//처음 우리가 원하는 형태의 값을 입력할 때, 값을 저장할 곳
-	int* numlist_again = (int*)malloc(sizeof(int) * N);
-	//여기에서 우리가 원하는 값을 넣고, 이제 출력할 것!!
+	int* numlist_check = (int*)calloc(sizeof(int) , N); 
+	char* plusminus = (char*)calloc(sizeof(char) , cnt);
 	for (int i = 0; i < N; i++)
 	{
-		scanf("%d", *(numlist + i));
+		scanf("%d", &numlist[i]);
+	}
+	for (int i = 0; i < N; i++)
+	{
+		printf("%d\n", numlist[i]);
 	}
 	for (int i = 1; i <= N; i++)
 	{
-
-		if (numlist[a] == i)
+		if (numlist[a] != i)
 		{
-			printf("-\n");
-			numlist_again[a++] = i;
-			if()
+			plusminus[cnt++] = '+';// 문자열 자료형에다 저장해야 될 듯
+			++TOP;
+			stack[TOP] = i;
 		}
 		else
-		{ 
-			printf("+\n");
-			stack[TOP++] = i;
-
-
-		}
-	}
-}
-
-
-int full();
-void empty();
-void push(int x);
-void pop();
-void size();
-void top();
-
-int TOP = -1;
-int stack[SIZE];
-
-int main(void)
-{
-	int n;
-
-	scanf("%d", &n);
-	for (int i = 0; i < n; i++)
-	{
-		char word[6];
-		int num;
-		scanf("%s", &word);
-		if (strcmp(word, "push") == 0)
 		{
-			scanf("%d", &num);
-			push(num);
+			a++;
+			++TOP;
+			stack[TOP] = i;
+			plusminus[cnt] = '+';
+			cnt += 1;
+			numlist_check[b++] = stack[TOP];
+			TOP--;
+			plusminus[cnt] = '-';
+			cnt += 1;
 		}
-		else if (!strcmp(word, "empty")) empty();
-		else if (strcmp(word, "pop") == 0) pop();
-		else if (strcmp(word, "size") == 0) size();
-		else if (strcmp(word, "top") == 0) top();
+		if (TOP != -1)
+		{
+			for (int j = TOP; j >= 0; j--)
+			{
+				if (numlist[a] == stack[j])
+				{
+					numlist_check[b++] = stack[j];
+					plusminus[cnt++] = '-';
+					a++;
+					TOP--;
+				}
+			}
+		}
+	}
+	if (TOP != -1)
+	{
+		for (int k = TOP; k >= 0; k--)
+		{
+			printf("%d\n", stack[k]);
+			numlist_check[b++] = stack[k];
+		}
 	}
 
-}
-//꽉 찼는지 확인하는 함수
-int full()
-{
-	if (TOP >= SIZE - 1)
+	int right = 0;
+	for (int i = 0; i < N; i++)
 	{
-		//printf("Error : Stack is Full.\n ");
-		return 1;
-	}
-	return 0;
-}
-// 비어있는지 확인
-void empty()
-{
-	if (TOP == -1)
-	{
-		printf("%d\n", 1);
-	}
-	else printf("%d\n", 0);
-}
-void push(int x)
-{
-	if (!full())
-	{
-		stack[++TOP] = x;
-	}
-}
-//스택의 top에 있는 원소를 뺀다.
-void pop()
-{
-	if (TOP != -1)
-	{
-		int temp;
-		temp = stack[TOP];
-		TOP--;
-		printf("%d\n", temp);
-	}
-	else printf("%d\n", -1);
-}
-// 지금 들어 있는 스택의 원소 개수를 확인
-void size()
-{
-	if (TOP != -1)
-	{
-		int cnt = 0;
-		for (int i = 0; i <= TOP; i++)
+		printf("%d\n", numlist_check[i]);
+		printf("\n");
+		if (numlist[i] == numlist_check[i])
 		{
-			cnt++;
+			right++;
 		}
-		printf("%d\n", cnt);
 	}
-	else printf("%d\n", 0);
-}
-//스택의 맨 꼭대기에 무엇이 있는지 확인
-void top()
-{
-	if (TOP != -1)
+	if (right == N)asASd
 	{
-		printf("%d\n", stack[TOP]);
+		for (int i = 0; i < cnt; i++)
+		{
+			printf("%c\n", plusminus[i]);
+		}
 	}
-	else printf("%d\n", -1);
+	else
+	{
+		printf("NO\n");
+	}
+	free(numlist);
+	//free(numlist_check);
+	//free(plusminus);
 }
